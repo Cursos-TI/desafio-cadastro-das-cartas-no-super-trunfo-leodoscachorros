@@ -14,13 +14,13 @@ int main(){
     int numero_de_pontos_turisticos;
 
     printf("Digite seu estado:\n");
-    scanf("%49s", estado);  // Limitar a leitura a 49 caracteres para evitar overflow
+    scanf("%49s", estado);  
 
     printf("Digite o código da carta:\n");
-    scanf(" %c", &codigo_da_carta);  // Corrigir o tipo de leitura para char
+    scanf(" %c", &codigo_da_carta);  
 
     printf("Digite o nome da cidade:\n");
-    scanf("%49s", nome_da_cidade);  // Limitar a leitura a 49 caracteres para evitar overflow
+    scanf("%49s", nome_da_cidade);  
 
     printf("Digite a população:\n");
     scanf("%d", &populacao);
@@ -34,7 +34,7 @@ int main(){
     printf("Digite o número de pontos turísticos:\n");
     scanf("%d", &numero_de_pontos_turisticos);
 
-    // Exibir os dados coletados
+   
     printf("\nDados da Carta:\n");
     printf("Estado: %s\n", estado);
     printf("Código da Carta: %c\n", codigo_da_carta);
