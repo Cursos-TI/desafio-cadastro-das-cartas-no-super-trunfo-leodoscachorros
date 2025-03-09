@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int main() {
+    printf("Desafio Xaderz\n");
+    printf("Novo Comit\n");
+
     char estado[51];  // Alocando espaço para a string estado
     char codigo_da_carta;
     char nome_da_cidade[100];  // Alocando espaço para a string nome_da_cidade
