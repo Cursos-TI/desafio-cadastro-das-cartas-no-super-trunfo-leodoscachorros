@@ -13,25 +13,25 @@ int main(){
     float pib;
     int numero_de_pontos_turisticos;
 
-    printf("Digite seu estado:\n");
-    scanf("%49s", estado);  
+    printf(" Digite seu estado:\n");
+    scanf("%49c", &estado);  
 
-    printf("Digite o código da carta:\n");
+    printf(" Digite o código da carta:\n");
     scanf(" %c", &codigo_da_carta);  
 
-    printf("Digite o nome da cidade:\n");
-    scanf("%49s", nome_da_cidade);  
+    printf(" Digite o nome da cidade:\n");
+    scanf("%49s", &nome_da_cidade);  
 
-    printf("Digite a população:\n");
+    printf(" Digite a população:\n");
     scanf("%d", &populacao);
 
-    printf("Digite a área em km²:\n");
+    printf(" Digite a área em km²:\n");
     scanf("%f", &area_em_km2);
 
-    printf("Digite o PIB:\n");
+    printf("\Digite o PIB:\n");
     scanf("%f", &pib);
 
-    printf("Digite o número de pontos turísticos:\n");
+    printf(" Digite o número de pontos turísticos:\n");
     scanf("%d", &numero_de_pontos_turisticos);
 
     printf("Estado: %s\n", estado);
